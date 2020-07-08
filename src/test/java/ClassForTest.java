@@ -4,11 +4,8 @@ public class ClassForTest {
 
     @org.junit.Test
     public void formethod() {
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> origin/first
     }
 }
