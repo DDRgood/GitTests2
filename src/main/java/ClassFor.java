@@ -4,11 +4,22 @@ public class ClassFor {
         int res = 0;
         if (a.length == 0)
             return 0;
-        else
+        else if (a.length < 10)
             for (int tmp: a){
                 res += tmp;
             }
-         return res;
+
+        else {
+            return 1023;
+        }
+         return res + 1;
+
+    }
+
+
+    public void show(){
+
+
 
     }
 }
